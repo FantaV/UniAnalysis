@@ -1,15 +1,18 @@
+# Load necessary libraries
 library(tidyverse)
 library(data.table)
+library(cluster) # For clustering evaluation
+library(corrplot) # For correlation plot
 
-# percorso 
+# Set the file path
 path <- "~/Documents/Coding/R/Projects/9. Marketing Clustering/"
-file_name_cluster = paste0(path, "dataset_cluster.txt")
-CT_cluster <- read.table(file_name_cluster, sep="\t", header=T, fileEncoding="latin1")
+file_name_cluster <- paste0(path, "dataset_cluster.txt")
+CT_cluster <- read.table(file_name_cluster, sep = "\t", header = TRUE, fileEncoding = "latin1")
 
-
-# primo esame 
+# Initial exploration of the dataset
 glimpse(CT_cluster)
-# selezione delle variabili suggerite dal cliente
+
+# Select variables suggested by the client
 CT_cluster_var <- CT_cluster %>% 
     select(
         Id_Cliente,
@@ -23,143 +26,105 @@ CT_cluster_var <- CT_cluster %>%
         Amm_Bonifici_No_Competitors,
         Amm_Spesa_Bancomat,
         Cont_Movimenti_Dispositivi,
-        Amm_Gestito_Attuale)
+        Amm_Gestito_Attuale
+    )
 
-# escludo il cliente
+# Exclude the customer ID for clustering
 dataset_cluster <- CT_cluster_var %>% select(-Id_Cliente)
 
-# analisi delle correlazioni 
+# Correlation analysis
 corr_matrix <- cor(dataset_cluster)
-library(corrplot)
-col2 = colorRampPalette(c('red', 'white', 'blue')) 
-corrplot(corr_matrix, type = "upper", 
-         tl.col = 'black', cl.ratio = 0.1, col = col2(10))
+col2 <- colorRampPalette(c('red', 'white', 'blue'))
+corrplot(corr_matrix, type = "upper", tl.col = 'black', cl.ratio = 0.1, col = col2(10))
 
+# K-means clustering without standardization
+kmeans_no_sd <- function(data, k) {
+    kmeans(data, centers = k, nstart = 25)
+}
 
+plot_cluster_size <- function(cluster_data) {
+    ggplot(cluster_data, aes(x = cl)) +
+        geom_bar(aes(y = 100 * (..count..) / sum(..count..)), width = 0.5) +
+        ggtitle("Cluster size") +
+        xlab("Cluster id") +
+        ylab("Percentage") +
+        coord_flip() +
+        theme_minimal()
+}
 
-
-################# cluster senza standardizzare ##############
-k4_no_sd <-dataset_cluster %>%
-    kmeans(nstart = 25,centers = 4)
-
+# K-means without standardization (k=4)
+k4_no_sd <- kmeans_no_sd(dataset_cluster, 4)
 df_cl <- data.frame(cl = k4_no_sd$cluster)
+plot_cluster_size(df_cl)
 
+# K-means with standardization
+dataset_cluster_std <- dataset_cluster %>% mutate_all(scale)
 
-ggplot(df_cl, aes(x=cl))+
-    geom_bar(aes(y = 100*(..count..)/sum(..count..)), width = 0.5)+
-    ggtitle("Cluster size")+
-    xlab("Cluster id")+
-    ylab("Percentage")+
-    coord_flip() +
-    theme_minimal()
-
-################# fine cluster senza standardizzare ##############
-
-
-################# cluster con standardizzazione  ##############
-k4_sd <-dataset_cluster %>%
-    mutate_all(scale) %>% 
-    kmeans(nstart = 25,centers = 4, iter.max = 30)
-
+# K-means with standardization (k=4)
+k4_sd <- kmeans_no_sd(dataset_cluster_std, 4)
 df_cl <- data.frame(cl = k4_sd$cluster)
+plot_cluster_size(df_cl)
 
-
-ggplot(df_cl, aes(x=cl))+
-    geom_bar(aes(y = 100*(..count..)/sum(..count..)), width = 0.5)+
-    ggtitle("Cluster size")+
-    xlab("Cluster id")+
-    ylab("Percentage")+
-    coord_flip() +
-    theme_minimal()
-
-################# fine cluster con std ##############
-
-# standardizzazione 
+# Standardization for subsequent clustering
 dataset_cluster <- dataset_cluster %>% mutate_all(scale)
 
-k2 <- kmeans(dataset_cluster, nstart=25, centers = 2   , iter.max = 30)
-k3 <- kmeans(dataset_cluster, nstart=25, centers = 3   , iter.max = 30)
-k4 <- kmeans(dataset_cluster, nstart=25, centers = 4   , iter.max = 30)
-k5 <- kmeans(dataset_cluster, nstart=25, centers = 5   , iter.max = 30)
-k6 <- kmeans(dataset_cluster, nstart=25, centers = 6   , iter.max = 30)
-k7 <- kmeans(dataset_cluster, nstart=25, centers = 7   , iter.max = 30)
-k8 <- kmeans(dataset_cluster, nstart=25, centers = 8   , iter.max = 30)
-k9 <- kmeans(dataset_cluster, nstart=25, centers = 9   , iter.max = 30)
-k10 <-kmeans(dataset_cluster, nstart=25, centers = 10  , iter.max = 30)
- 
-# carico la libreria che ha le funzioni per la valutazione 
-library(cluster)
-
-# scelta K ottimale con avg silhouette
-output <- data.frame(k = 2:10, sil = NA)
-for (k in 2:10) {
-    km <- kmeans(dataset_cluster, nstart=25, centers = k , iter.max = 30)
-    test <- silhouette(km$cluster, dist(dataset_cluster))
-    avg_sil <- mean(test[,3])
-    print(paste("K = ", k))
-    print(avg_sil)
-    output$sil[k-1] <- avg_sil
+# Apply k-means for k = 2 to k = 10 and evaluate using Silhouette and WSS
+evaluate_k <- function(data, k_range) {
+    sil_output <- data.frame(k = k_range, sil = NA)
+    wss_output <- data.frame(k = k_range, totwss = NA)
+    
+    for (k in k_range) {
+        km <- kmeans(data, centers = k, nstart = 25, iter.max = 30)
+        
+        # Silhouette evaluation
+        sil_test <- silhouette(km$cluster, dist(data))
+        sil_output$sil[k - 1] <- mean(sil_test[, 3])
+        
+        # WSS evaluation
+        wss_output$totwss[k - 1] <- km$tot.withinss
+    }
+    
+    return(list(silhouette = sil_output, wss = wss_output))
 }
-plot(output$k, output$sil, type="b", pch=19)
 
-# scelta K ottimale con WSS
-output <- data.frame(k = 2:10, totwss = NA)
-for (k in 2:10) {
-    km <- kmeans(dataset_cluster, nstart=25, centers = k , iter.max = 30)
-    totwss <- km$tot.withinss
-    print(paste("K = ", k))
-    print(totwss)
-    output$totwss[k-1] <- totwss
-}
-plot(output$k, output$totwss, type="b", pch=19)
+# Evaluate for k from 2 to 10
+k_range <- 2:10
+eval_results <- evaluate_k(dataset_cluster, k_range)
 
-# vince k = 3
+# Plot Silhouette and WSS results
+plot(eval_results$silhouette$k, eval_results$silhouette$sil, type = "b", pch = 19, main = "Average Silhouette vs K")
+plot(eval_results$wss$k, eval_results$wss$totwss, type = "b", pch = 19, main = "Total WSS vs K")
 
-################# cluster con standardizzazione  ##############
-k3 <- kmeans(dataset_cluster, nstart = 25,centers = 3, iter.max = 30)
-
+# Based on evaluation, choose K = 3
+k3 <- kmeans_no_sd(dataset_cluster, 3)
 df_cl <- data.frame(cl = k3$cluster)
+plot_cluster_size(df_cl)
 
-
-ggplot(df_cl, aes(x=cl))+
-    geom_bar(aes(y = 100*(..count..)/sum(..count..)), width = 0.5)+
-    ggtitle("Cluster size")+
-    xlab("Cluster id")+
-    ylab("Percentage")+
-    coord_flip() +
-    theme_minimal()
-
-################# fine cluster con std ##############
-
-
-
-
-
+# Profile the clusters
 CT_profile <- CT_cluster %>% 
-    select(Eta,
-           Cont_Accessi_Sito,
-           Cont_attività_trading,
-           Amm_Liquidita_Attuale,
-           Amm_Amministrato_Attuale,
-           Ind_Prestito,
-           Amm_Gestito_Attuale
+    select(
+        Eta,
+        Cont_Accessi_Sito,
+        Cont_attività_trading,
+        Amm_Liquidita_Attuale,
+        Amm_Amministrato_Attuale,
+        Ind_Prestito,
+        Amm_Gestito_Attuale
     ) %>%
-    mutate(Patrimonio = Amm_Liquidita_Attuale +  Amm_Gestito_Attuale + 
-               Amm_Amministrato_Attuale
-    )
-# aggiungo cluster di appartenenza
+    mutate(Patrimonio = Amm_Liquidita_Attuale + Amm_Gestito_Attuale + Amm_Amministrato_Attuale)
+
+# Add the cluster assignment
 CT_profile$cluster <- k3$cluster
 
-
-profile_k3 <- CT_profile %>% 
-    group_by(cluster) %>% 
-    summarise(Cont_Accessi_Sito_mean = mean(Cont_Accessi_Sito),
-              Patrimonio_mean = mean(Patrimonio),
-              Eta_mean = mean(Eta),
-              Trading_mean = mean(Cont_attività_trading),
-              Ind_Prestito_Sum = sum(Ind_Prestito)
+# Summarize the cluster profiles
+profile_k3 <- CT_profile %>%
+    group_by(cluster) %>%
+    summarise(
+        Cont_Accessi_Sito_mean = mean(Cont_Accessi_Sito),
+        Patrimonio_mean = mean(Patrimonio),
+        Eta_mean = mean(Eta),
+        Trading_mean = mean(Cont_attività_trading),
+        Ind_Prestito_Sum = sum(Ind_Prestito)
     )
 
-profile_k3
-
-
+print(profile_k3)
