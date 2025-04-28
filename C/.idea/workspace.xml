@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8aa82e8-453b-4163-8c20-cc430e09ca78" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/C++_Projects/Exercises/ES_chi_quadro.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++_Projects/Exercises/ES_chi_quadro.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++_Projects/costruttore.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++_Projects/costruttore.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++_Projects/gest_ecc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++_Projects/gest_ecc.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++_Projects/giorni_studio.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++_Projects/giorni_studio.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++_Projects/implementazione_automobile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++_Projects/implementazione_automobile.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Projects/arr_bid.c" beforeDir="false" afterPath="$PROJECT_DIR$/C_Projects/arr_bid.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Projects/arr_punt_bubble.c" beforeDir="false" afterPath="$PROJECT_DIR$/C_Projects/arr_punt_bubble.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Projects/cont_caratt.c" beforeDir="false" afterPath="$PROJECT_DIR$/C_Projects/cont_caratt.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Projects/ricerca binaria f-include.c" beforeDir="false" afterPath="$PROJECT_DIR$/C_Projects/ricerca binaria f-include.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Projects/typdef.c" beforeDir="false" afterPath="$PROJECT_DIR$/C_Projects/typdef.c" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FantaV&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FantaV/University-Projects.git&quot;,
+    &quot;accountId&quot;: &quot;c1f764cd-9ab1-4ee5-a433-be13c8e8d6d0&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/C++_Projects/Exercises/ES_chi_quadro.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/C++_Projects/costruttore.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/C++_Projects/implementazione_automobile.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2rDAxUGSgl1xjHR3LmePksDLo7w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.ES_Crivelllo_GPT.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.ES_Crivello.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ES_MAXseq.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ES_farh.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ES_for_fahr.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ES_ordine numeri.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ES_ordine numeriBUBBLE.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.ES_quadrato somma.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ES_rubrica.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.ES_spazi.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.Es_Sum.cpp.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.ackermann.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.allocazione_vettori.cpp.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.applicazione_automobile.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.arr_bid.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.arr_punt_bubble.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.array di lung variab.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.array di lung variab.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.array hist.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.array midali.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.caratt e stringhe.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.chi_quadro.cpp (1).executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.chi_quadro.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.class_midali_funzione.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.classe_midali.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.codFisc_class.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.cont_caratt.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.conta_spazi.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.conta_spazi.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.costruttore.cpp.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.dadi.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.dadi.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.diff_funzioni_c++.cpp (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.diff_funzioni_c++.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.do.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.elab_file.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.elab_file.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.elab_file_midali.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.ereditarietà.cpp.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.f e prot.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.fact modulare.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.file_di_prova.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.for e switch.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.for e switch.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.funzione 1 midali.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.gest_ecc.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.gest_file.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.gest_pila.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.getchar_libro.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.giorni_studio.cpp.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.iostream.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.iteraz e ricors.c (1).executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.iteraz e ricors.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.main_automobile.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.malloc_calloc.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.matrici midali.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.matriciUni.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.media con array.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.mia prova.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.min e max di n .c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.min e max di n .c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.n fattoriale.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.nido.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ord arr GPT.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ordinamento array.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.overloading.cpp.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.prova .c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.puntatore 2.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.puntatori.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ricerca binaria f-include.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.ricerca binaria.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ricerca binaria.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ricors.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.scope cubo.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.scope midali 2.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.scope midali.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.scope midali.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.sentinella.c (1).executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.sentinella.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.string_class.cpp.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.string_metodi.cpp.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.string_metodi_semplice.cpp.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.stringhe array.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.struct_UNI.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.struct_midali.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.swapping.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.switch settimana.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.typdef.c.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.vector_metodi.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.virtual.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.while_contat.c.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/carlovilloresi/Documents/Coding/C&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/C++_Projects/Exercises" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/C++_Projects" />
+      <recent name="$PROJECT_DIR$/C_Projects" />
+    </key>
+  </component>
+  <component name="RunManager" selected="C/C++ File.giorni_studio.cpp">
+    <configuration name="allocazione_vettori.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="allocazione_vettori.cpp" CONFIG_NAME="allocazione_vettori.cpp">
+      <option name="sourceFile" value="C++_Projects/allocazione_vettori.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chi_quadro.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="chi_quadro.cpp" CONFIG_NAME="chi_quadro.cpp">
+      <option name="sourceFile" value="C++_Projects/Exercises/ES_chi_quadro.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chi_quadro.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="chi_quadro.cpp" CONFIG_NAME="chi_quadro.cpp">
+      <option name="sourceFile" value="C++_Projects/chi_quadro.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ereditarietà.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="ereditarietà.cpp" CONFIG_NAME="ereditarietà.cpp">
+      <option name="sourceFile" value="C++_Projects/ereditarietà.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="giorni_studio.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="giorni_studio.cpp" CONFIG_NAME="giorni_studio.cpp">
+      <option name="sourceFile" value="C++_Projects/giorni_studio.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.giorni_studio.cpp" />
+        <item itemvalue="C/C++ File.chi_quadro.cpp (1)" />
+        <item itemvalue="C/C++ File.ereditarietà.cpp" />
+        <item itemvalue="C/C++ File.chi_quadro.cpp" />
+        <item itemvalue="C/C++ File.allocazione_vettori.cpp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8aa82e8-453b-4163-8c20-cc430e09ca78" name="Changes" comment="" />
+      <created>1736083518432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736083518432</updated>
+      <workItem from="1736083519494" duration="545000" />
+      <workItem from="1736084144024" duration="4000" />
+      <workItem from="1736084162184" duration="4000" />
+      <workItem from="1736084214615" duration="618000" />
+      <workItem from="1736085669396" duration="368000" />
+      <workItem from="1736086224844" duration="12314000" />
+      <workItem from="1736161297032" duration="6310000" />
+      <workItem from="1736281280237" duration="4097000" />
+      <workItem from="1736373712580" duration="810000" />
+      <workItem from="1736692612178" duration="7714000" />
+      <workItem from="1736797725009" duration="7444000" />
+      <workItem from="1736886363268" duration="1471000" />
+      <workItem from="1736891108388" duration="1908000" />
+      <workItem from="1736974812390" duration="2226000" />
+      <workItem from="1737057383198" duration="3441000" />
+      <workItem from="1737229865236" duration="10281000" />
+      <workItem from="1737244448316" duration="5000" />
+      <workItem from="1737303277396" duration="5420000" />
+      <workItem from="1737319680477" duration="62000" />
+      <workItem from="1737408983271" duration="3437000" />
+      <workItem from="1737831336343" duration="616000" />
+      <workItem from="1737832079144" duration="2284000" />
+      <workItem from="1737834378938" duration="142000" />
+      <workItem from="1737834527328" duration="195000" />
+      <workItem from="1737834747593" duration="1015000" />
+      <workItem from="1737836472338" duration="641000" />
+      <workItem from="1737885771874" duration="20893000" />
+      <workItem from="1737977428966" duration="7126000" />
+      <workItem from="1738000605199" duration="5016000" />
+      <workItem from="1738006887996" duration="2492000" />
+      <workItem from="1738018916019" duration="266000" />
+      <workItem from="1738082046932" duration="3117000" />
+      <workItem from="1738099308323" duration="2845000" />
+      <workItem from="1738148689553" duration="3361000" />
+      <workItem from="1738168081009" duration="4940000" />
+      <workItem from="1738253037337" duration="12681000" />
+      <workItem from="1738504180885" duration="869000" />
+      <workItem from="1738505586609" duration="188000" />
+      <workItem from="1738506011514" duration="88000" />
+      <workItem from="1738520149423" duration="7883000" />
+      <workItem from="1738619707411" duration="726000" />
+      <workItem from="1739101247125" duration="2996000" />
+      <workItem from="1739123187260" duration="1402000" />
+      <workItem from="1739124737951" duration="80000" />
+      <workItem from="1739124822509" duration="625000" />
+      <workItem from="1739215865981" duration="681000" />
+      <workItem from="1739264416122" duration="668000" />
+      <workItem from="1739466197458" duration="724000" />
+      <workItem from="1739912901759" duration="407000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/C_Projects/Exercises/ES_rubrica.c</url>
+          <line>71</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/C_Projects/Exercises/ES_rubrica.c</url>
+          <line>158</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/C_Projects/Exercises/ES_rubrica.c</url>
+          <line>193</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/C_Projects/Exercises/ES_rubrica.c</url>
+          <line>220</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/C_Projects/Exercises/ES_rubrica.c</url>
+          <line>258</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/C_Projects/Exercises/ES_rubrica.c</url>
+          <line>296</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/C_Projects/Exercises/ES_rubrica.c</url>
+          <line>367</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/C_Projects/Exercises/ES_rubrica.c</url>
+          <line>396</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/C_Projects/Exercises/ES_rubrica.c</url>
+          <line>538</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/C_Projects/Exercises/ES_rubrica.c</url>
+          <line>500</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/C_Projects/Exercises/ES_rubrica.c</url>
+          <line>172</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

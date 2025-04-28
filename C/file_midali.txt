@@ -1,0 +1,5 @@
+File aperto ed inizializzato con W
+Aggiunta riga con append
+aggiunta righe a caso per lettura con fgets che ha la funzione di restituirci la PRIMA RIGA in stampa.
+Per ottenere tutte le righe dobbiamo utilizzare un ciclo while!
+Easy no?

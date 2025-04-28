@@ -1,0 +1,40 @@
+[{"stream_name":"stdout","time":9.731566158,"data":"Data loaded and merged. Shape: (55641, 7)\n"}
+,{"stream_name":"stdout","time":9.731653917,"data":"Columns: ['Date', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']\n"}
+,{"stream_name":"stdout","time":9.78447562,"data":"        Date      Open      High       Low     Close  Adj Close     Volume\n"}
+,{"stream_name":"stdout","time":9.784508635,"data":"0 1980-12-12  0.128348  0.128906  0.128348  0.128348   0.098726  469033600\n"}
+,{"stream_name":"stdout","time":9.784514023,"data":"1 1980-12-12  0.128348  0.128906  0.128348  0.128348   0.098726  469033600\n"}
+,{"stream_name":"stdout","time":9.784518479,"data":"2 1980-12-12  0.128348  0.128906  0.128348  0.128348   0.098834  469033600\n"}
+,{"stream_name":"stdout","time":9.784522719,"data":"3 1980-12-15  0.122210  0.122210  0.121652  0.121652   0.093678  175884800\n"}
+,{"stream_name":"stdout","time":9.784526836,"data":"4 1980-12-15  0.122210  0.122210  0.121652  0.121652   0.093575  175884800\n"}
+,{"stream_name":"stdout","time":9.784531213,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":9.784536175,"data":"RangeIndex: 55641 entries, 0 to 55640\n"}
+,{"stream_name":"stdout","time":9.784540311,"data":"Data columns (total 7 columns):\n"}
+,{"stream_name":"stdout","time":9.78454466,"data":" #   Column     Non-Null Count  Dtype         \n"}
+,{"stream_name":"stdout","time":9.784548992,"data":"---  ------     --------------  -----         \n"}
+,{"stream_name":"stdout","time":9.78455337,"data":" 0   Date       55641 non-null  datetime64[ns]\n"}
+,{"stream_name":"stdout","time":9.784557681999999,"data":" 1   Open       55641 non-null  float64       \n"}
+,{"stream_name":"stdout","time":9.784561676,"data":" 2   High       55641 non-null  float64       \n"}
+,{"stream_name":"stdout","time":9.784565711,"data":" 3   Low        55641 non-null  float64       \n"}
+,{"stream_name":"stdout","time":9.784569759,"data":" 4   Close      55641 non-null  float64       \n"}
+,{"stream_name":"stdout","time":9.784574674,"data":" 5   Adj Close  55641 non-null  float64       \n"}
+,{"stream_name":"stdout","time":9.784579184,"data":" 6   Volume     55641 non-null  int64         \n"}
+,{"stream_name":"stdout","time":9.784583394,"data":"dtypes: datetime64[ns](1), float64(5), int64(1)\n"}
+,{"stream_name":"stdout","time":9.784587693,"data":"memory usage: 3.0 MB\n"}
+,{"stream_name":"stdout","time":9.784592133,"data":"None\n"}
+,{"stream_name":"stdout","time":25.622260137,"data":"Linear Regression Model Performance:\n"}
+,{"stream_name":"stdout","time":25.622301225,"data":"RMSE: 0.9572533649305441\n"}
+,{"stream_name":"stdout","time":25.622307329,"data":"R^2 Score: 0.9997846391332631\n"}
+,{"stream_name":"stderr","time":29.448322468,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":29.448391031,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":29.485394656,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":29.914759403,"data":"[NbConvertApp] Writing 517154 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":31.603503639,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":31.603559832,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":31.637698414,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":32.606647191,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":32.606684465,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.607030714,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.607182559,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.607725444,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.607968147,"data":"[NbConvertApp] Writing 304806 bytes to __results__.html\n"}
+]
